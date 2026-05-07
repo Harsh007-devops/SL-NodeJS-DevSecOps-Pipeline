@@ -11,7 +11,7 @@ phases:
       - chmod +x /usr/local/bin/snyk
       
       # authenticate the Snyk CLI
-      - snyk auth 65c52b20-ef38-41a5-af18-9ca0ddbb8f9e
+      - snyk auth 3b671ffa-029b-4bff-8293-18de3cdfaac4
       
       # perform a Snyk SCA scan; continue if vulnerabilities are found
       - snyk test || true
